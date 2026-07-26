@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Thème de base de l'application -->
+    <style name="Base.Theme.Entreprise" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Application des couleurs personnalisées -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/primaryVariant</item>
+        <item name="colorSecondary">@color/secondary</item>
+
+        <!-- Fond des fenêtres et couleur de la barre d'état -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/primaryVariant</item>
+    </style>
+
+    <!-- Thème actif utilisé par le Manifeste -->
+    <style name="Theme.Entreprise" parent="Base.Theme.Entreprise" />
+
+    <!-- Thème spécifique pour l'API SplashScreen (Android 12+) -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_entreprise_logo</item>
+        <item name="windowSplashScreenBackground">@color/primary</item>
+        <item name="postSplashScreenTheme">@style/Theme.Entreprise</item>
+    </style>
+</resources>

@@ -1,0 +1,34 @@
+[versions]
+# SDK & Outils
+agp = "9.1.1"
+# Bibliothèques UI
+appcompat = "1.7.1"
+material = "1.13.0"
+constraintlayout = "2.2.1"
+recyclerview = "1.3.2"
+core-splashscreen = "1.2.0"
+# Architecture & Data
+lifecycle = "2.8.7"
+room = "2.6.1"
+glide = "4.16.0"
+
+[libraries]
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "core-splashscreen" }
+
+# Architecture MVVM
+androidx-lifecycle-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel", version.ref = "lifecycle" }
+androidx-lifecycle-livedata = { group = "androidx.lifecycle", name = "lifecycle-livedata", version.ref = "lifecycle" }
+
+# Base de données Room
+androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+
+# Divers
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }

@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Fond circulaire avec un léger dégradé de violet -->
+    <path
+        android:fillColor="#6200EE"
+        android:pathData="M50,50m-48,0a48,48 0,1 1,96 0a48,48 0,1 1,-96 0" />
+
+    <!-- Forme "E" moderne et blanche -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,30 h35 v7 h-27 v10 h30 v7 h-30 v12 h32 v7 h-40 Z" />
+
+    <!-- Accent Turquoise pour le côté professionnel -->
+    <path
+        android:fillColor="#03DAC6"
+        android:pathData="M72,30 h5 v43 h-5 Z" />
+
+</vector>

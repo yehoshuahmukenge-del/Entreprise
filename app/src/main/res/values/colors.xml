@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Couleurs de base -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Palette Material Design (Thème Principal) -->
+    <!-- Violet : Couleur d'identité (Toolbar, Boutons principaux) -->
+    <color name="primary">#6200EE</color>
+    <color name="primaryVariant">#3700B3</color>
+    <!-- Turquoise : Couleur d'accent (FAB, Éléments de succès) -->
+    <color name="secondary">#03DAC6</color>
+
+    <!-- Couleurs d'état et de structure -->
+    <!-- Gris très clair pour le fond des listes -->
+    <color name="background">#F5F5F5</color>
+    <!-- Blanc pur pour les cartes et surfaces -->
+    <color name="surface">#FFFFFF</color>
+    <!-- Rouge Material pour les messages d'erreur et suppression -->
+    <color name="error">#B00020</color>
+
+    <!-- Typographie (Hiérarchie du texte) -->
+    <!-- Texte principal (Titres, noms de produits) -->
+    <color name="textPrimary">#212121</color>
+    <!-- Texte secondaire (Descriptions, sous-titres) -->
+    <color name="textSecondary">#757575</color>
+
+    <!-- Couleur spécifique au métier -->
+    <!-- Rose vif pour mettre en avant les prix des produits -->
+    <color name="priceColor">#E91E63</color>
+</resources>
